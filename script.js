@@ -7,7 +7,7 @@ function change() {
 
 //Next and Previous buttons
 var img = new Array(
-  "/images/image001.png",
+  "image001.png",
   "/images/image002.png",
   "/images/image003.png",
   "/images/image004.png",
