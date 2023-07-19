@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%px;
+  margin-left: auto;
+  margin-right: auto;
+}
+body {
+  background-color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-top: 5px solid gray;
+}
+
+h2 {
+  margin: 50px 0;
+  font-size: 40px;
+  color: #990000;
+}
+h3 {
+  margin: 15px 0;
+}
+
+.container {
+  width: 1200px;
+}
+
+/* .txt {
+  width: 1000px;
+} */
+.title {
+  padding: 15px 15px;
+  font-style: italic;
+}
+
+.main-header {
+  width: 100%;
+  font-family: monospace;
+  background-color: #d3d3d3;
+  color: #990000;
+  border-top: none;
+  border-bottom: solid #888383 thin;
+  border-left: none;
+  border-right: none;
+  margin-right: 500px;
+  display: flex;
+
+  justify-content: space-around;
+
+  align-items: center;
+
+  min-height: 8vh;
+}
+
+.links {
+  font-size: 20px;
+  display: flex;
+  justify-content: space-around;
+  width: 30%;
+}
+
+.instructions {
+  font-size: 17px;
+}
+
+.imnum {
+  color: #990000;
+  padding-top: 90px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+button {
+  width: 90px;
+  font-size: 20px;
+  padding: 10px;
+  margin-top: 50px;
+  cursor: pointer;
+  color: black;
+  align-content: left;
+}
+
+.imgselect button {
+  margin-left: 50px;
+  float: left;
+}
+
+.next {
+  float: right;
+  margin-left: 25px;
+}
+
+.prev {
+  float: right;
+  margin-left: 20px;
+}
+
+/* .next {
+  font-size: 30px;
+  padding: 20px;
+  cursor: pointer;
+  color: black;
+} */
+a:link {
+  text-decoration: none;
+  color: #990000;
+}
+
+a:visited {
+  color: #990000;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+img {
+  height: 20%;
+  width: 500px;
+  height: 500px;
+  justify-content: space-around;
+
+  align-items: center;
+
+  min-height: 8vh;
+  display: flex;
+
+  margin: 40px 0;
+  margin-right: 50px;
+  float: left;
+}
+
+/* input {
+  appearance: none;
+  width: 300px;
+  height: 20px;
+  border-radius: 30px;
+  border: 1px solid rgb(226, 226, 226);
+  background-color: #ffe3dc;
+  margin: 20px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-around;
+  float: left;
+}
+
+input::-webkit-slider-thumb {
+  appearance: none;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: gray;
+} */
+
+aside {
+  border-top: 7px solid #888383;
+  border-bottom: 7px solid #888383;
+  border-left: none;
+  border-right: none;
+
+  float: right;
+  width: 300px;
+  height: 800px;
+  background-color: #d3d3d3;
+  text-align: center;
+  margin: 0 110px;
+}
