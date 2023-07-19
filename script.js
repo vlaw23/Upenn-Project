@@ -7,17 +7,17 @@ function change() {
 
 //Next and Previous buttons
 var img = new Array(
-  "/images/image001.png",
-  "/images/image002.png",
-  "/images/image003.png",
-  "/images/image004.png",
-  "/images/image005.png",
-  "/images/image006.png",
-  "/images/image007.png",
-  "/images/image008.png"
+  "./images/image001.png",
+  "./images/image002.png",
+  "./images/image003.png",
+  "./images/image004.png",
+  "./images/image005.png",
+  "./images/image006.png",
+  "./images/image007.png",
+  "./images/image008.png"
 );
 
-var img2 = new Array("upenn.png", "/images/image001.png");
+var img2 = new Array("upenn.png", "./images/image001.png");
 
 var imgElement = document.getElementById("imgDemo");
 var i = 0;
