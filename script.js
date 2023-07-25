@@ -104,7 +104,7 @@ var img = new Array(
   “./images/Sub_101-colormap_1.png"
 );
 
-var img2 = new Array( 
+var img2 = new Array(
   “./images/Sub_1-colormap_2.png",
   “./images/Sub_2-colormap_2.png",
   “./images/Sub_3-colormap_2.png",
