@@ -1,9 +1,3 @@
-// Grayscale Slider
-function change() {
-  const img = document.querySelector(".image");
-  const range = document.querySelector(".range");
-  img.style.filter = `contrast(${range.value}%)`;
-}
 
 //Next and Previous buttons
 var img = new Array(
