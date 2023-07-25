@@ -81,8 +81,14 @@ button {
 }
 
 .imgselect button {
-  margin-left: 50px;
+  margin-left: 40px;
   float: left;
+  width: 100px;
+  background-color: white;
+}
+.imgselect button:focus {
+  background-color: #abd7eb;
+  font-weight: bold;
 }
 
 .next {
