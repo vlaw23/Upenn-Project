@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link href="style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div class="container">
+      <header class="main-header">
+        <h1 class="title"><a href="index.html">PROJECT</a></h1>
+
+        <nav class="links">
+          <a href="about.html">About</a>
+          <a href="images.html"> Images</a>
+          <a href="ratings.html">Rating</a>
+        </nav>
+      </header>
+
+      <div class="txt">
+        <h2><strong>Images</strong></h2>
+
+        <div class="instructions"></div>
+        <h3>Instructions</h3>
+
+        <p>
+          You will look at subjects’ T1 images using the links below and record
+          your diagnostic choices in the corresponding form. I recommend opening
+          the form in another window to facilitate flipping back and forth. I
+          would also recommend using Chrome or Firefox if possible–Safari seems
+          less reliable for these. Image displays are in neurological
+          orientation (left=left).
+        </p>
+      </div>
+      <div class="imnum">
+        <span class="no">IMAGE 1</span>
+      </div>
+
+      <img
+        src="/VedImages/Sub_1-colormap_1.png"
+        class="image"
+        id="imgDemo"
+        alt="HTML5 Icon"
+      />
+      <aside>
+        <h3>FORM</h3>
+        <a
+          ><iframe
+            src="https://docs.google.com/forms/d/e/1FAIpQLSdJAaYoA8aa4g_nnqfrS4tT55kcExGPEUKE72_-U0eXz3fUMw/viewform?embedded=true"
+            width="300"
+            height="850"
+            frameborder="0"
+            marginheight="0"
+            marginwidth="0"
+            >Loading…</iframe
+          ></a
+        >
+      </aside>
+      <!-- class="image" src="petscan.jpeg"> -->
+
+      <script src="script.js"></script>
+      <!-- <input
+        oninput="change()"
+        type="range"
+        class="range"
+        min="0"
+        max="300"
+        value="0"
+      /> -->
+      <div class="imgselect">
+        <button class="one" onclick="one()">-20 -100</button>
+        <button class="two" onclick="two()">-20 -80</button>
+        <button class="three" onclick="three()">0 - 80</button>
+      </div>
+      <div>
+        <button class="next" onclick="next()">next</button>
+        <button class="prev" onclick="prev()">prev</button>
+      </div>
+    </div>
+  </body>
+</html>
