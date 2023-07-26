@@ -213,7 +213,6 @@ var img2 = new Array(
   “images/Sub_99-colormap_2.png",
   “images/Sub_100-colormap_2.png",
   “images/Sub_101-colormap_2.png"
-
 );
 
 var imgElement = document.getElementById("imgDemo");
