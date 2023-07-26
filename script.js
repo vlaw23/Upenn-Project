@@ -311,7 +311,6 @@ var img3 = new Array(
   “images/Sub_99-colormap_3.png",
   “images/Sub_100-colormap_3.png",
   “images/Sub_101-colormap_3.png"
-
 );
 
 var imgElement = document.getElementById("imgDemo");
