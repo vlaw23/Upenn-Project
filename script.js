@@ -311,7 +311,6 @@ var img3 = new Array(
   "/images/Sub_101-colormap_3.png"
 );
 
-
 var imgElement = document.getElementById("imgDemo");
 var i = 0;
 var imgLen = img.length;
