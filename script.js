@@ -1,6 +1,6 @@
 //Next and Previous buttons
 var img = new Array(
-  “,/images/sub1-1.png",
+  “./images/sub1-1.png",
   “images/Sub_2-colormap_1.png",
   “images/Sub_3-colormap_1.png",
   “images/Sub_4-colormap_1.png",
