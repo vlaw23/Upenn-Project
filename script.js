@@ -4,7 +4,50 @@ function change() {
   const range = document.querySelector(".range");
   img.style.filter = `contrast(${range.value}%)`;
 }
+var imgElement = document.getElementById("imgDemo");
+var i = 0;
+var imgLen = img.length;
 
+var no_box = document.querySelector(".imnum");
+
+function next() {
+  if (i < imgLen - 1) {
+    i++;
+    imgElement.src = img[i];
+    document.getElementsByClassName("prev").disabled = false;
+  } else {
+    document.getElementsByClassName("next").disabled = true;
+  }
+  return setNo();
+}
+
+function prev() {
+  if (i > 0) {
+    i--;
+    imgElement.src = img[i];
+    document.getElementsByClassName("next").disabled = false;
+  } else {
+    document.getElementsByClassName("prev").disabled = true;
+  }
+
+  return setNo();
+}
+
+function setNo() {
+  // Change innerhtml
+  return (no_box.innerHTML = "IMAGE " + (i + 1));
+}
+
+function one() {
+  imgElement.src = img[i];
+}
+
+function two() {
+  imgElement.src = img2[i];
+}
+
+function three() {
+  imgElement.src = img3[i];
 
 //Next and Previous buttons
 var img = new Array(
@@ -115,94 +158,3 @@ var img = new Array(
 
 var img2 = new Array("upenn.png", "./images/image001.png");
 
-var imgElement = document.getElementById("imgDemo");
-var i = 0;
-var imgLen = img.length;
-
-var no_box = document.querySelector(".imnum");
-
-function next() {
-  if (i < imgLen - 1) {
-    i++;
-    imgElement.src = img[i];
-    document.getElementsByClassName("prev").disabled = false;
-  } else {
-    document.getElementsByClassName("next").disabled = true;
-  }
-  return setNo();
-}
-
-function prev() {
-  if (i > 0) {
-    i--;
-    imgElement.src = img[i];
-    document.getElementsByClassName("next").disabled = false;
-  } else {
-    document.getElementsByClassName("prev").disabled = true;
-  }
-
-  return setNo();
-}
-
-function setNo() {
-  // Change innerhtml
-  return (no_box.innerHTML = "IMAGE " + (i + 1));
-}
-
-function one() {
-  imgElement.src = img[i];
-}
-
-function two() {
-  imgElement.src = img2[i];
-}
-
-function three() {
-  imgElement.src = img3[i];
-}
-
-var imgElement = document.getElementById("imgDemo");
-var i = 0;
-var imgLen = img.length;
-
-var no_box = document.querySelector(".imnum");
-
-function next() {
-  if (i < imgLen - 1) {
-    i++;
-    imgElement.src = img[i];
-    document.getElementsByClassName("prev").disabled = false;
-  } else {
-    document.getElementsByClassName("next").disabled = true;
-  }
-  return setNo();
-}
-
-function prev() {
-  if (i > 0) {
-    i--;
-    imgElement.src = img[i];
-    document.getElementsByClassName("next").disabled = false;
-  } else {
-    document.getElementsByClassName("prev").disabled = true;
-  }
-
-  return setNo();
-}
-
-function setNo() {
-  // Change innerhtml
-  return (no_box.innerHTML = "IMAGE " + (i + 1));
-}
-
-function one() {
-  imgElement.src = img[i];
-}
-
-function two() {
-  imgElement.src = img2[i];
-}
-
-function three() {
-  imgElement.src = img3[i];
-}
