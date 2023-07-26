@@ -109,7 +109,7 @@ var img = new Array(
 //   “images/Sub_100-colormap_1.png",
 //   “images/Sub_101-colormap_1.png"
 
-// );
+);
 
 // var img2 = new Array(
 //   “images/Sub_1-colormap_2.png",
