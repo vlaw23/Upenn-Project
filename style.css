@@ -78,6 +78,7 @@ a:hover {
 /*Instructions at top of page */
 .instructions {
   font-size: 17px;
+  margin-top: 30px;
 }
 
 .instructions p {
@@ -192,8 +193,4 @@ button {
 
 .prev {
   margin-left: 450px;
-}
-
-.instructions {
-  margin-top: 30px;
 }
