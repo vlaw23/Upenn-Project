@@ -322,7 +322,6 @@ var img3 = new Array(
 var imgElement = document.getElementById("imgDemo");
 var i = 0;
 var imgLen = img.length;
-
 var no_box = document.querySelector(".image");
 
 //Displays to next image
