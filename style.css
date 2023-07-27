@@ -102,12 +102,11 @@ button {
 }
 
 .next {
-  float: right;
-  margin-left: 100px;
+  margin-left: 40px;
 }
 
 .prev {
-  float: right;
+  margin-left: 450px;
 }
 
 /* .next {
