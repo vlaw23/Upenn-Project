@@ -18,18 +18,35 @@
 
       <div class="txt">
         <h2><strong>Images</strong></h2>
-
-        <div class="instructions"></div>
-        <h3>Instructions</h3>
-
         <p>
-          You will look at subjects’ T1 images using the links below and record
-          your diagnostic choices in the corresponding form. I recommend opening
-          the form in another window to facilitate flipping back and forth. I
-          would also recommend using Chrome or Firefox if possible–Safari seems
-          less reliable for these. Image displays are in neurological
-          orientation (left=left).
+          This utility has been developed to rate the quality of CBF maps with
+          the goal of developing an automated quality evaluation index.
         </p>
+
+        <div class="instructions">
+          <h3>Instructions</h3>
+
+          <p>
+            1. Please enter your email and name and click on Next to start the
+            review process.
+          </p>
+          <p>
+            2. For each image, please rate the CBF maps on a scale between 1 and
+            4:
+          </p>
+
+          <div class="ratingindex">
+            <p class="unacceptable">1: Unacceptable</p>
+            <p class="poor">2: Poor</p>
+            <p class="average">3: Average</p>
+            <p class="excellent">4: Excellent</p>
+            <p class="disclaimer">
+              Disclaimer: Make sure that the Image Number and the Form Question
+              match. After each image, you need to click the next button under
+              the image, as well as the next button on the form.
+            </p>
+          </div>
+        </div>
       </div>
       <div class="imnum">
         <span id="no">IMAGE 1</span>
@@ -55,11 +72,10 @@
           ></a
         >
       </aside>
-      
+
       <script src="script.js"></script>
 
       <p class="colorbartext">colorbar</p>
-      
       <div class="imgselect">
         <button class="one" onclick="one()">-20,100</button>
         <button class="two" onclick="two()">-20,80</button>
