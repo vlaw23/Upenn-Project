@@ -1,3 +1,9 @@
+//Image Arrays
+
+//TO ADD IMAGES to the site, add the images to the 'images' folder and then add to the end of the corresponding array.
+//It is easier if the image names follow the provided format
+
+//-20,100 images
 var img = new Array(
   "./images/Sub_1-colormap_1.png",
   "./images/Sub_2-colormap_1.png",
@@ -102,6 +108,7 @@ var img = new Array(
   // "./images/Sub_101-colormap_1.png"
 );
 
+//-20,80 images
 var img2 = new Array(
   "./images/Sub_1-colormap_2.png",
   "./images/Sub_2-colormap_2.png",
@@ -206,6 +213,7 @@ var img2 = new Array(
   // "./images/Sub_101-colormap_2.png"
 );
 
+//0,80 images
 var img3 = new Array(
   "./images/Sub_1-colormap_3.png",
   "./images/Sub_2-colormap_3.png",
@@ -310,13 +318,14 @@ var img3 = new Array(
   // "./images/Sub_101-colormap_3.png"
 );
 
-
+//Next and Previous Buttons
 var imgElement = document.getElementById("imgDemo");
 var i = 0;
 var imgLen = img.length;
 
 var no_box = document.querySelector(".image");
 
+//Displays to next image
 function next() {
   if (i < imgLen - 1) {
     i++;
@@ -328,6 +337,7 @@ function next() {
   return setNo();
 }
 
+//Displays to previous image
 function prev() {
   if (i > 0) {
     i--;
@@ -340,21 +350,24 @@ function prev() {
   return setNo();
 }
 
+//Returns the new image number
 function setNo() {
-  // Change innerhtml
-  // var num = i + 1;
-
   return (document.getElementById("no").innerHTML = "IMAGE " + (i + 1));
 }
 
+//Buttons for each dynamic range
+
+//-20,100
 function one() {
   imgElement.src = img[i];
 }
 
+//-20,80
 function two() {
   imgElement.src = img2[i];
 }
 
+//0,80
 function three() {
   imgElement.src = img3[i];
 }
