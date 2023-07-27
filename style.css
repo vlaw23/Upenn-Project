@@ -83,9 +83,21 @@ button {
 .imgselect button {
   margin-left: 40px;
   float: left;
-  width: 100px;
+  width: 90px;
   background-color: white;
+  border-color: blue;
 }
+
+.colorbartext {
+  margin-top: 60px;
+  font-size: 15px;
+  float: left;
+  margin-left: 40px;
+  color: blue;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
 .imgselect button:focus {
   background-color: #abd7eb;
   font-weight: bold;
@@ -93,12 +105,11 @@ button {
 
 .next {
   float: right;
-  margin-left: 25px;
+  margin-left: 100px;
 }
 
 .prev {
   float: right;
-  margin-left: 55px;
 }
 
 /* .next {
